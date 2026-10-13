@@ -1,0 +1,44 @@
+{
+  "dataset": "India-Sri Lanka maritime boundary turning points",
+  "verification_status": "transcribed_from_treaty_text",
+  "verification_summary": "Coordinates were typed from the treaty texts as reproduced by the UN Division for Ocean Affairs and the Law of the Sea (DOALOS). They have NOT been checked against the signed charts annexed to the treaties or against an official WGS84 conversion published by either government.",
+  "display_label": "Treaty coordinates (1974 & 1976 agreements) - for awareness and demonstration only, not for navigation",
+  "sources": [
+    {
+      "title": "Agreement between Sri Lanka and India on the Boundary in Historic Waters between the two Countries and Related Matters",
+      "signed": "Colombo 26 June 1974 and New Delhi 28 June 1974",
+      "entry_into_force": "8 July 1974",
+      "articles_used": "Article 1 (Positions 1 to 6)",
+      "url": "https://www.un.org/Depts/los/LEGISLATIONANDTREATIES/PDFFILES/TREATIES/LKA-IND1974BW.PDF",
+      "publisher": "United Nations, Division for Ocean Affairs and the Law of the Sea (DOALOS)"
+    },
+    {
+      "title": "Agreement between Sri Lanka and India on the Maritime Boundary between the two Countries in the Gulf of Mannar and the Bay of Bengal and Related Matters",
+      "signed": "New Delhi 23 March 1976",
+      "entry_into_force": "10 May 1976",
+      "articles_used": "Article 1 (Gulf of Mannar, Positions 1m to 13m) and Article 2 (Bay of Bengal, Positions 1b to 6b)",
+      "url": "https://www.un.org/Depts/los/LEGISLATIONANDTREATIES/PDFFILES/TREATIES/LKA-IND1976MB.PDF",
+      "publisher": "United Nations, Division for Ocean Affairs and the Law of the Sea (DOALOS)"
+    }
+  ],
+  "mirror_copies": [
+    "https://marineregions.org/documents/LKA-IND1974BW.PDF",
+    "https://marineregions.org/documents/LKA-IND1976MB.PDF"
+  ],
+  "date_retrieved": "2026-10-13",
+  "coordinate_system": "Geographic coordinates, decimal degrees, longitude/latitude order in GeoJSON. Treaty values are degrees and decimal minutes, North and East.",
+  "geodetic_datum": "Not stated in either treaty. NautiGuard assumes WGS84 for display and calculation. Positions referenced to an older local datum can differ from WGS84 by up to several hundred metres, so the drawn line may be offset from the legally binding position by that amount.",
+  "joining_rule": "Both treaties join positions by 'arcs of great circles' in sequence. NautiGuard computes distances along WGS84 ellipsoidal geodesics, which differ from spherical great-circle arcs by only metres over these segment lengths.",
+  "transcription_notes": [
+    "1976 Agreement Art. 1 Position 4m: the UN reproduction prints the longitude as \"79° 18'.2 N\"; this is a printing error and is treated as 79° 18.2' E.",
+    "1976 Agreement Art. 2 Position 2b: printed as \"10° 33' 0 N\"; read as 10° 33.0' N.",
+    "1974 Position 1 and 1976 Position 1b are the same point (10° 05' N, 80° 03' E); 1974 Position 6 and 1976 Position 1m are the same point (09° 06' N, 79° 32' E). The three sectors therefore join into one continuous line.",
+    "The Gulf of Mannar line ends at Position 13m. Its southward extension is the subject of a separate 1976 tri-junction agreement with the Maldives and is not included here."
+  ],
+  "important_limitations": [
+    "This is a boundary line, not a fishing regulation map. Being near the line does not by itself make fishing unlawful, and being away from it does not make fishing lawful. Fishing rules, permits and protected areas are separate matters set by the relevant authorities.",
+    "The 50/25/10/5 NM warning levels are NautiGuard demonstration thresholds. They are not official legal buffers or government-issued warning levels.",
+    "Not for navigation. Fishermen must use official charts, approved navigation equipment and guidance from the Indian Coast Guard and the Tamil Nadu Fisheries Department."
+  ],
+  "regenerate": "python scripts/build_boundary.py && python scripts/build_advisory_zones.py"
+}

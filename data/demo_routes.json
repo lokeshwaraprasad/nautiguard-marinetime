@@ -1,0 +1,44 @@
+{
+  "note": "Demonstration routes and fishing grounds. Waypoints were chosen to stay offshore and were checked against the treaty boundary distances in tests. Fishing grounds are ILLUSTRATIVE circles for the demo, not survey data, and recording fishing in an area never means the area is safe or lawful.",
+  "home_port": {"name": "Rameswaram fishing harbour (approx.)", "lat": 9.2935, "lon": 79.3140},
+  "transit_speed_kn": 8.0,
+  "fishing_speed_kn": 3.0,
+  "routes": [
+    {
+      "id": "palk-bay-north",
+      "name": "Palk Bay north grounds (from Rameswaram)",
+      "description": "Leaves Rameswaram, fishes in Palk Bay, closes to under 5 NM of the treaty line near Position 3, then turns home. Starts in CAUTION because Rameswaram itself is about 12 NM from the line.",
+      "levels_demonstrated": ["CAUTION", "HIGH_ALERT", "CRITICAL"],
+      "waypoints": [
+        [9.325, 79.315], [9.400, 79.250], [9.500, 79.200], [9.600, 79.250],
+        [9.620, 79.330], [9.520, 79.280], [9.400, 79.270], [9.325, 79.315]
+      ]
+    },
+    {
+      "id": "gulf-of-mannar-full",
+      "name": "Full-range demo: Gulf of Mannar (south of Thoothukudi)",
+      "description": "Starts about 60 NM from the line in the SAFE band and steadily approaches it, passing through every warning level before turning back. Use this route to demonstrate all five states.",
+      "levels_demonstrated": ["SAFE", "EARLY_WARNING", "CAUTION", "HIGH_ALERT", "CRITICAL"],
+      "waypoints": [
+        [7.900, 77.800], [7.950, 78.100], [7.850, 78.400], [7.750, 78.550],
+        [7.750, 78.660], [7.720, 78.700], [7.700, 78.740], [7.800, 78.550],
+        [7.950, 78.250], [8.100, 78.050]
+      ]
+    },
+    {
+      "id": "palk-bay-inshore",
+      "name": "Palk Bay inshore loop (stays west)",
+      "description": "A calmer trip that keeps well west of the line. Stays in the CAUTION band (about 11-21 NM) the whole time.",
+      "levels_demonstrated": ["CAUTION"],
+      "waypoints": [
+        [9.325, 79.315], [9.400, 79.150], [9.550, 79.050], [9.700, 79.100],
+        [9.550, 79.150], [9.325, 79.315]
+      ]
+    }
+  ],
+  "fishing_grounds": [
+    {"id": "fg-palk-a", "name": "Palk Bay ground A (demo)", "lat": 9.500, "lon": 79.200, "radius_nm": 2.5},
+    {"id": "fg-palk-b", "name": "Palk Bay ground B (demo)", "lat": 9.625, "lon": 79.075, "radius_nm": 2.5},
+    {"id": "fg-gulf-a", "name": "Gulf of Mannar ground (demo)", "lat": 7.850, "lon": 78.400, "radius_nm": 3.0}
+  ]
+}

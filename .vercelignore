@@ -1,0 +1,8 @@
+# Files that must never be uploaded to Vercel
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.bat

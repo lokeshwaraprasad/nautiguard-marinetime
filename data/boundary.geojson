@@ -1,0 +1,328 @@
+{
+  "type": "FeatureCollection",
+  "name": "India-Sri Lanka maritime boundary (1974 and 1976 agreements)",
+  "crs_note": "Geographic latitude/longitude in decimal degrees. The treaties do not name a geodetic datum; NautiGuard treats the values as WGS84 for display. See boundary_metadata.json.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bay-of-bengal-1976",
+        "name": "Bay of Bengal sector (1976 Agreement, Art. 2)",
+        "treaty": "Agreement on the Maritime Boundary in the Gulf of Mannar and the Bay of Bengal, 23 March 1976",
+        "joining_rule": "arcs of great circles between positions, in sequence (as stated in the treaty)",
+        "verification_status": "transcribed_from_treaty_text",
+        "points": [
+          {
+            "label": "Position 1b",
+            "as_printed": "10° 05.00' N, 80° 03.00' E",
+            "lat": 10.0833333,
+            "lon": 80.05
+          },
+          {
+            "label": "Position 1ba",
+            "as_printed": "10° 05.80' N, 80° 05.00' E",
+            "lat": 10.0966667,
+            "lon": 80.0833333
+          },
+          {
+            "label": "Position 1bb",
+            "as_printed": "10° 08.40' N, 80° 09.50' E",
+            "lat": 10.14,
+            "lon": 80.1583333
+          },
+          {
+            "label": "Position 2b",
+            "as_printed": "10° 33.00' N, 80° 46.00' E",
+            "lat": 10.55,
+            "lon": 80.7666667
+          },
+          {
+            "label": "Position 3b",
+            "as_printed": "10° 41.70' N, 81° 02.50' E",
+            "lat": 10.695,
+            "lon": 81.0416667
+          },
+          {
+            "label": "Position 4b",
+            "as_printed": "11° 02.70' N, 81° 56.00' E",
+            "lat": 11.045,
+            "lon": 81.9333333
+          },
+          {
+            "label": "Position 5b",
+            "as_printed": "11° 16.00' N, 82° 24.40' E",
+            "lat": 11.2666667,
+            "lon": 82.4066667
+          },
+          {
+            "label": "Position 6b",
+            "as_printed": "11° 26.60' N, 83° 22.00' E",
+            "lat": 11.4433333,
+            "lon": 83.3666667
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.05,
+            10.0833333
+          ],
+          [
+            80.0833333,
+            10.0966667
+          ],
+          [
+            80.1583333,
+            10.14
+          ],
+          [
+            80.7666667,
+            10.55
+          ],
+          [
+            81.0416667,
+            10.695
+          ],
+          [
+            81.9333333,
+            11.045
+          ],
+          [
+            82.4066667,
+            11.2666667
+          ],
+          [
+            83.3666667,
+            11.4433333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "palk-strait-1974",
+        "name": "Palk Strait / historic waters sector (1974 Agreement, Art. 1)",
+        "treaty": "Agreement on the Boundary in Historic Waters between the two Countries, 26/28 June 1974",
+        "joining_rule": "arcs of great circles between positions, in sequence (as stated in the treaty)",
+        "verification_status": "transcribed_from_treaty_text",
+        "points": [
+          {
+            "label": "Position 1",
+            "as_printed": "10° 05.00' N, 80° 03.00' E",
+            "lat": 10.0833333,
+            "lon": 80.05
+          },
+          {
+            "label": "Position 2",
+            "as_printed": "09° 57.00' N, 79° 35.00' E",
+            "lat": 9.95,
+            "lon": 79.5833333
+          },
+          {
+            "label": "Position 3",
+            "as_printed": "09° 40.15' N, 79° 22.60' E",
+            "lat": 9.6691667,
+            "lon": 79.3766667
+          },
+          {
+            "label": "Position 4",
+            "as_printed": "09° 21.80' N, 79° 30.70' E",
+            "lat": 9.3633333,
+            "lon": 79.5116667
+          },
+          {
+            "label": "Position 5",
+            "as_printed": "09° 13.00' N, 79° 32.00' E",
+            "lat": 9.2166667,
+            "lon": 79.5333333
+          },
+          {
+            "label": "Position 6",
+            "as_printed": "09° 06.00' N, 79° 32.00' E",
+            "lat": 9.1,
+            "lon": 79.5333333
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.05,
+            10.0833333
+          ],
+          [
+            79.5833333,
+            9.95
+          ],
+          [
+            79.3766667,
+            9.6691667
+          ],
+          [
+            79.5116667,
+            9.3633333
+          ],
+          [
+            79.5333333,
+            9.2166667
+          ],
+          [
+            79.5333333,
+            9.1
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gulf-of-mannar-1976",
+        "name": "Gulf of Mannar sector (1976 Agreement, Art. 1)",
+        "treaty": "Agreement on the Maritime Boundary in the Gulf of Mannar and the Bay of Bengal, 23 March 1976",
+        "joining_rule": "arcs of great circles between positions, in sequence (as stated in the treaty)",
+        "verification_status": "transcribed_from_treaty_text",
+        "points": [
+          {
+            "label": "Position 1m",
+            "as_printed": "09° 06.00' N, 79° 32.00' E",
+            "lat": 9.1,
+            "lon": 79.5333333
+          },
+          {
+            "label": "Position 2m",
+            "as_printed": "09° 00.00' N, 79° 31.30' E",
+            "lat": 9.0,
+            "lon": 79.5216667
+          },
+          {
+            "label": "Position 3m",
+            "as_printed": "08° 53.80' N, 79° 29.30' E",
+            "lat": 8.8966667,
+            "lon": 79.4883333
+          },
+          {
+            "label": "Position 4m",
+            "as_printed": "08° 40.00' N, 79° 18.20' E",
+            "lat": 8.6666667,
+            "lon": 79.3033333
+          },
+          {
+            "label": "Position 5m",
+            "as_printed": "08° 37.20' N, 79° 13.00' E",
+            "lat": 8.62,
+            "lon": 79.2166667
+          },
+          {
+            "label": "Position 6m",
+            "as_printed": "08° 31.20' N, 79° 04.70' E",
+            "lat": 8.52,
+            "lon": 79.0783333
+          },
+          {
+            "label": "Position 7m",
+            "as_printed": "08° 22.20' N, 78° 55.40' E",
+            "lat": 8.37,
+            "lon": 78.9233333
+          },
+          {
+            "label": "Position 8m",
+            "as_printed": "08° 12.20' N, 78° 53.70' E",
+            "lat": 8.2033333,
+            "lon": 78.895
+          },
+          {
+            "label": "Position 9m",
+            "as_printed": "07° 35.30' N, 78° 45.70' E",
+            "lat": 7.5883333,
+            "lon": 78.7616667
+          },
+          {
+            "label": "Position 10m",
+            "as_printed": "07° 21.00' N, 78° 38.80' E",
+            "lat": 7.35,
+            "lon": 78.6466667
+          },
+          {
+            "label": "Position 11m",
+            "as_printed": "06° 30.80' N, 78° 12.20' E",
+            "lat": 6.5133333,
+            "lon": 78.2033333
+          },
+          {
+            "label": "Position 12m",
+            "as_printed": "05° 53.90' N, 77° 50.70' E",
+            "lat": 5.8983333,
+            "lon": 77.845
+          },
+          {
+            "label": "Position 13m",
+            "as_printed": "05° 00.00' N, 77° 10.60' E",
+            "lat": 5.0,
+            "lon": 77.1766667
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.5333333,
+            9.1
+          ],
+          [
+            79.5216667,
+            9.0
+          ],
+          [
+            79.4883333,
+            8.8966667
+          ],
+          [
+            79.3033333,
+            8.6666667
+          ],
+          [
+            79.2166667,
+            8.62
+          ],
+          [
+            79.0783333,
+            8.52
+          ],
+          [
+            78.9233333,
+            8.37
+          ],
+          [
+            78.895,
+            8.2033333
+          ],
+          [
+            78.7616667,
+            7.5883333
+          ],
+          [
+            78.6466667,
+            7.35
+          ],
+          [
+            78.2033333,
+            6.5133333
+          ],
+          [
+            77.845,
+            5.8983333
+          ],
+          [
+            77.1766667,
+            5.0
+          ]
+        ]
+      }
+    }
+  ]
+}
